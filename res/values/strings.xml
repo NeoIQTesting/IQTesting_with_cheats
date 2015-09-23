@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">智商测试器</string>
+    <string name="notice">重要说明</string>
+    <string name="notice_1">1. 本软件的测试结果仅供参考，并不能作为任何权威依据。如果您想得到准确的、权威的智商测试结果，请前往更专业的智商测试机构。</string>
+    <string name="notice_2">2. 对于使用此软件造成的任何后果，皆由您自己承担，软件开发者将不会承担任何责任。</string>
+    <string name="agree">我已了解并同意上述内容。</string>
+    <string name="scan">只需在下面扫描您的指纹，就可以开始测定智商……</string>
+    <string name="unavailable">很抱歉，但指纹扫描器不可用。</string>
+    <string name="IQ">您的智商是</string>
+    <string name="test_again">重新测试</string>
+    <string name="title_activity_scan">扫描指纹</string>
+    <string name="title_activity_cheat">扫描指纹</string>
+    <string name="title_activity_result">智商测试结果</string>
+    <string name="title_activity_cheat_result">智商测试结果</string>
+</resources>

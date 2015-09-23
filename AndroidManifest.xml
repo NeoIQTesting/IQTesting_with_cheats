@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.testyouriq.android" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:noHistory="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Notice"
+            android:label="@string/app_name"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Scan"
+            android:label="@string/title_activity_scan"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="com.testyouriq.android.Scan" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Cheat"
+            android:label="@string/title_activity_cheat"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="com.testyouriq.android.Cheat" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Result"
+            android:label="@string/title_activity_result"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="com.testyouriq.android.Result" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CheatResult"
+            android:label="@string/title_activity_cheat_result"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="com.testyouriq.android.CheatResult" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
